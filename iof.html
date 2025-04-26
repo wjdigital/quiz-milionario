@@ -426,7 +426,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </div>
 
 <!-- Botão de pagamento -->
-<a id="paymentButton" href="#" class="btn33" onclick="handleButtonClick(event)">Aprovar Saque</a>
+<a id="paymentButton" href="#" class="btn33" onclick="handleButtonClick(event)">Prosseguir</a>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -459,7 +459,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
             setTimeout(() => { // Pequeno atraso para evitar bloqueios do script UTM
                 const currentParams = getURLParameters();
-                window.location.href = `https://pay.compraeegurapay.com/checkout/6da7d051-3986-447f-8685-827652bb67e9${currentParams}`;
+                window.location.href = `./cadastro/index.html`;
             }, 100);
         }
 
